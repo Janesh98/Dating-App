@@ -9,7 +9,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./nav.component.css']
 })
 export class NavComponent implements OnInit {
-  model = {};
+  model: any = {};
   photoUrl: string;
 
   constructor(public authService: AuthService, private alertify: AlertifyService,
